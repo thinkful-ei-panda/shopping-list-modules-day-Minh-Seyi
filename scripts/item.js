@@ -1,13 +1,10 @@
 
 
 function create(title) {
-    let id = cuid();
-    let name = title;
-    let checked = false;
     return {
-        id,
-        name,
-        checked,
+        id: cuid(),
+        name: title,
+        checked: false,
     };
 }
 
